@@ -1,5 +1,6 @@
-transformers==4.41.2
-accelerate==0.32.1
+transformers>=4.46,<5
+tokenizers>=0.20.3
+accelerate>=0.34.2
 datasets==2.20.0
 peft==0.11.1
 trl==0.9.6
@@ -8,3 +9,4 @@ sentence-transformers==3.0.1
 numpy==1.26.4
 pydantic==2.8.2
 rich==13.7.1
+PyYAML>=6.0

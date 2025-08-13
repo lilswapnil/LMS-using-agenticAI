@@ -6,7 +6,6 @@ __pycache__/
 *.pyc
 .venv/
 .env
-.ptyhon_history
 
 # Artifacts / models / caches
 outputs/

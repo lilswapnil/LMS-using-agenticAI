@@ -18,9 +18,8 @@ warmup_ratio: 0.03
 weight_decay: 0.0
 logging_steps: 10
 save_steps: 250
+
+# new
+dataset_path: data/sft_samples.clean.jsonl
 output_dir: outputs/sft
-dataset_path: data/sft_samples.jsonl
-eval_path: data/eval_samples.jsonl
-instruction_key: instruction
-trajectory_key: trajectory
 packing: false
