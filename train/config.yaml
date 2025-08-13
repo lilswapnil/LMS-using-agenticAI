@@ -1,0 +1,26 @@
+base_model: TinyLlama/TinyLlama-1.1B-Chat-v1.0  # change to an HF model you can load (or use an 8bit FP16 LLM)
+revision: null
+load_4bit: false
+load_8bit: false
+
+bnb_quant_type: nf4
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+
+max_seq_len: 512
+per_device_train_batch_size: 1
+per_device_eval_batch_size: 1
+gradient_accumulation_steps: 16
+num_train_epochs: 1
+learning_rate: 2e-4
+warmup_ratio: 0.03
+weight_decay: 0.0
+logging_steps: 10
+save_steps: 250
+output_dir: outputs/sft
+dataset_path: data/sft_samples.jsonl
+eval_path: data/eval_samples.jsonl
+instruction_key: instruction
+trajectory_key: trajectory
+packing: false
