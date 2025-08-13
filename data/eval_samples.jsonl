@@ -1,109 +1,100 @@
-{"query":"What was ACME's YoY revenue growth?","context":"Revenue grew 18% YoY to $1.2B.","expected":"18%"}
-{"query":"Name one risk mentioned.","expected":"supply chain volatility"}
-
-// This file contains evaluation samples for a math model.
-{"query": "Solve for x: 3x + 4 = 19", "expected": "x = 5"}
-{"query": "Simplify: 2(x + 3) + 4", "expected": "2x + 10"}
-{"query": "Solve for x: 5x + -15 = 10", "expected": "x = 5"}
-{"query": "Solve using the quadratic formula: 2x^2 + -8x + 6 = 0", "expected": "x = (8 ± √28) / 4"}
-{"query": "Solve the system by elimination:\n2x + 3y = -1\n3x + 2y = -1", "expected": "(x, y) = (1, -1)"}
-{"query": "Solve for x: 2x + -9 = 1", "expected": "x = 5"}
-{"query": "Simplify the rational expression: ( 6x^2 ) / ( 6x )", "expected": "1 x"}
-{"query": "Simplify: 8(x + 2) + 6", "expected": "8x + 22"}
-{"query": "Solve for x: 4x + -12 = 32", "expected": "x = 11"}
-{"query": "Simplify: 3(x + 1) + 7", "expected": "3x + 10"}
-{"query": "Solve using the quadratic formula: 3x^2 + 9x + 0 = 0", "expected": "x = (-9 ± √81) / 6"}
-{"query": "Solve using the quadratic formula: 3x^2 + -10x + -7 = 0", "expected": "x = (10 ± √184) / 6"}
-{"query": "Solve the system by elimination:\n3x + 4y = -9\n4x + 1y = 1", "expected": "(x, y) = (1, -3)"}
-{"query": "Simplify: x^4 * x^3", "expected": "x^7"}
-{"query": "Simplify: x^2 * x^4", "expected": "x^6"}
-{"query": "A tutor charges $12 per hour. If a student studies for 4 hours, write and solve an equation to find the total cost.", "expected": "C = $48"}
-{"query": "Simplify the rational expression: ( 8x^2 ) / ( 8x )", "expected": "1 x"}
-{"query": "Simplify: -2(x + 3) + 7", "expected": "-2x + 1"}
-{"query": "Simplify the rational expression: ( 5x^2 ) / ( 9x )", "expected": "5/9 x"}
-{"query": "Simplify: 6(x + 2) + 8", "expected": "6x + 20"}
-{"query": "A tutor charges $6 per hour. If a student studies for 7 hours, write and solve an equation to find the total cost.", "expected": "C = $42"}
-{"query": "Solve the inequality: 3x + 8 < -10", "expected": "x < -6"}
-{"query": "Factor: x^2 + -10x + 24", "expected": "(x + -6)(x + -4)"}
-{"query": "Solve using the quadratic formula: 5x^2 + -1x + 2 = 0", "expected": "x = (1 ± √-39) / 10"}
-{"query": "Solve the system by elimination:\n4x + 3y = 14\n4x + 3y = 14", "expected": "(x, y) = (-1, 6)"}
-{"query": "Solve the inequality: 7x + -10 < -10", "expected": "x < 0"}
-{"query": "Solve for x: 6x + 9 = 33", "expected": "x = 4"}
-{"query": "Solve the system by elimination:\n6x + 1y = 39\n5x + 4y = 42", "expected": "(x, y) = (6, 3)"}
-{"query": "A tutor charges $12 per hour. If a student studies for 5 hours, write and solve an equation to find the total cost.", "expected": "C = $60"}
-{"query": "Solve using the quadratic formula: 4x^2 + -5x + -8 = 0", "expected": "x = (5 ± √153) / 8"}
-{"query": "Simplify: -7(x + 1) + -2", "expected": "-7x + -9"}
-{"query": "Solve the system by elimination:\n5x + 4y = 50\n1x + 5y = 31", "expected": "(x, y) = (6, 5)"}
-{"query": "Simplify: -1(x + 5) + -5", "expected": "-1x + -10"}
-{"query": "Simplify the rational expression: ( 4x^2 ) / ( 8x )", "expected": "1/2 x"}
-{"query": "Solve for x: 7x + 5 = -37", "expected": "x = -6"}
-{"query": "A tutor charges $7 per hour. If a student studies for 8 hours, write and solve an equation to find the total cost.", "expected": "C = $56"}
-{"query": "A tutor charges $6 per hour. If a student studies for 3 hours, write and solve an equation to find the total cost.", "expected": "C = $18"}
-{"query": "Solve using the quadratic formula: 1x^2 + -2x + 1 = 0", "expected": "x = (2 ± √0) / 2"}
-{"query": "Solve for x: 4x + -2 = 34", "expected": "x = 9"}
-{"query": "Simplify: -5(x + 3) + -9", "expected": "-5x + -24"}
-{"query": "Solve for x: 3x + 5 = 26", "expected": "x = 7"}
-{"query": "Solve the system by elimination:\n2x + 5y = -3\n5x + 1y = -19", "expected": "(x, y) = (-4, 1)"}
-{"query": "Solve for x: 4x + 14 = 30", "expected": "x = 4"}
-{"query": "A tutor charges $3 per hour. If a student studies for 3 hours, write and solve an equation to find the total cost.", "expected": "C = $9"}
-{"query": "Solve for x: 4x + 8 = 28", "expected": "x = 5"}
-{"query": "Simplify: -6(x + 2) + 3", "expected": "-6x + -9"}
-{"query": "Solve the inequality: 6x + 9 < 45", "expected": "x < 6"}
-{"query": "Solve using the quadratic formula: 3x^2 + -5x + 8 = 0", "expected": "x = (5 ± √-71) / 6"}
-{"query": "Simplify: -7(x + 4) + -1", "expected": "-7x + -29"}
-{"query": "Simplify: x^2 * x^1", "expected": "x^3"}
-{"query": "Solve the system by elimination:\n5x + 6y = 18\n1x + 1y = 3", "expected": "(x, y) = (0, 3)"}
-{"query": "Solve the inequality: 5x + 4 < 19", "expected": "x < 3"}
-{"query": "Solve for x: 6x + 5 = 77", "expected": "x = 12"}
-{"query": "Solve for x: 8x + -1 = -57", "expected": "x = -7"}
-{"query": "A tutor charges $9 per hour. If a student studies for 5 hours, write and solve an equation to find the total cost.", "expected": "C = $45"}
-{"query": "Factor: x^2 + -4x + 0", "expected": "(x + -4)(x + 0)"}
-{"query": "A tutor charges $12 per hour. If a student studies for 7 hours, write and solve an equation to find the total cost.", "expected": "C = $84"}
-{"query": "Solve for x: 7x + -7 = 42", "expected": "x = 7"}
-{"query": "Solve the system by elimination:\n4x + 6y = -34\n2x + 6y = -26", "expected": "(x, y) = (-4, -3)"}
-{"query": "Solve the system by elimination:\n4x + 4y = -32\n3x + 5y = -34", "expected": "(x, y) = (-3, -5)"}
-{"query": "Simplify: x^1 * x^5", "expected": "x^6"}
-{"query": "Solve for x: 2x + -1 = 21", "expected": "x = 11"}
-{"query": "Solve the system by elimination:\n5x + 3y = 16\n4x + 5y = 18", "expected": "(x, y) = (2, 2)"}
-{"query": "Simplify the rational expression: ( 4x^2 ) / ( 6x )", "expected": "2/3 x"}
-{"query": "Solve for x: 7x + -4 = -53", "expected": "x = -7"}
-{"query": "Solve using the quadratic formula: 3x^2 + -4x + 3 = 0", "expected": "x = (4 ± √-20) / 6"}
-{"query": "Solve using the quadratic formula: 5x^2 + -10x + -1 = 0", "expected": "x = (10 ± √120) / 10"}
-{"query": "Solve using the quadratic formula: 3x^2 + -5x + -7 = 0", "expected": "x = (5 ± √109) / 6"}
-{"query": "Solve the inequality: 7x + 10 < 17", "expected": "x < 1"}
-{"query": "Solve using the quadratic formula: 3x^2 + 4x + 4 = 0", "expected": "x = (-4 ± √-32) / 6"}
-{"query": "Solve using the quadratic formula: 3x^2 + 6x + 10 = 0", "expected": "x = (-6 ± √-84) / 6"}
-{"query": "A tutor charges $11 per hour. If a student studies for 5 hours, write and solve an equation to find the total cost.", "expected": "C = $55"}
-{"query": "Factor: x^2 + -2x + -48", "expected": "(x + -8)(x + 6)"}
-{"query": "Solve the system by elimination:\n5x + 4y = 14\n6x + 2y = 0", "expected": "(x, y) = (-2, 6)"}
-{"query": "Simplify the rational expression: ( 4x^2 ) / ( 6x )", "expected": "2/3 x"}
-{"query": "Solve using the quadratic formula: 2x^2 + -10x + -4 = 0", "expected": "x = (10 ± √132) / 4"}
-{"query": "Solve for x: 2x + 8 = 26", "expected": "x = 9"}
-{"query": "Solve for x: 3x + -3 = -3", "expected": "x = 0"}
-{"query": "Solve using the quadratic formula: 5x^2 + -4x + -2 = 0", "expected": "x = (4 ± √56) / 10"}
-{"query": "Solve the system by elimination:\n4x + 3y = 23\n2x + 6y = 16", "expected": "(x, y) = (5, 1)"}
-{"query": "Simplify the rational expression: ( 4x^2 ) / ( 8x )", "expected": "1/2 x"}
-{"query": "Solve for x: 5x + 1 = -24", "expected": "x = -5"}
-{"query": "Solve the system by elimination:\n5x + 1y = -14\n4x + 4y = -8", "expected": "(x, y) = (-3, 1)"}
-{"query": "Factor: x^2 + -10x + 25", "expected": "(x + -5)(x + -5)"}
-{"query": "Solve for x: 3x + 12 = -3", "expected": "x = -5"}
-{"query": "Solve the system by elimination:\n1x + 6y = 4\n3x + 2y = -4", "expected": "(x, y) = (-2, 1)"}
-{"query": "Solve the system by elimination:\n1x + 2y = 1\n6x + 3y = 15", "expected": "(x, y) = (3, -1)"}
-{"query": "Factor: x^2 + -3x + 2", "expected": "(x + -2)(x + -1)"}
-{"query": "Factor: x^2 + -4x + -21", "expected": "(x + -7)(x + 3)"}
-{"query": "Solve for x: 3x + -6 = 18", "expected": "x = 8"}
-{"query": "Simplify the rational expression: ( 5x^2 ) / ( 5x )", "expected": "1 x"}
-{"query": "Solve using the quadratic formula: 4x^2 + -4x + 6 = 0", "expected": "x = (4 ± √-80) / 8"}
-{"query": "A tutor charges $12 per hour. If a student studies for 8 hours, write and solve an equation to find the total cost.", "expected": "C = $96"}
-{"query": "Solve using the quadratic formula: 4x^2 + 0x + -2 = 0", "expected": "x = (0 ± √32) / 8"}
-{"query": "A tutor charges $4 per hour. If a student studies for 8 hours, write and solve an equation to find the total cost.", "expected": "C = $32"}
-{"query": "Solve using the quadratic formula: 5x^2 + 9x + 10 = 0", "expected": "x = (-9 ± √-119) / 10"}
-{"query": "Solve for x: 6x + 9 = -63", "expected": "x = -12"}
-{"query": "Simplify: x^2 * x^1", "expected": "x^3"}
-{"query": "Solve for x: 2x + -13 = -37", "expected": "x = -12"}
-{"query": "Solve using the quadratic formula: 4x^2 + -1x + 7 = 0", "expected": "x = (1 ± √-111) / 8"}
-{"query": "Solve using the quadratic formula: 3x^2 + 3x + -8 = 0", "expected": "x = (-3 ± √105) / 6"}
-{"query": "Simplify: -2(x + 4) + 6", "expected": "-2x + -2"}
-{"query": "Solve the inequality: 9x + -7 < -7", "expected": "x < 0"}
-{"query": "Solve the system by elimination:\n1x + 4y = 18\n2x + 2y = 0", "expected": "(x, y) = (-6, 6)"}
-{"query": "Factor: x^2 + -3x + 0", "expected": "(x + 0)(x + -3)"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x≥0 at x=-2.", "expected": "f(-2) = -3"}
+{"query": "A gym charges a $10 signup fee and $1 per month. Write and evaluate the cost after 6 months.", "expected": "C = $16"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x≥0 at x=3.", "expected": "f(3) = 9"}
+{"query": "State the domain and range of f(x) = 2x^2 + 4.", "expected": "Domain: (-∞, ∞); Range: [4, ∞)"}
+{"query": "State the domain and range of f(x) = 4x^2 + 5.", "expected": "Domain: (-∞, ∞); Range: [5, ∞)"}
+{"query": "Simplify: (x^1)/(x^3)", "expected": "1/x^2"}
+{"query": "Solve for x: 4|x| + 1 = 21", "expected": "x = -5 or x = 5"}
+{"query": "Simplify: √8", "expected": "2√2"}
+{"query": "Solve for x: 6|x| + 9 = 27", "expected": "x = 3 or x = -3"}
+{"query": "Simplify: √12", "expected": "2√3"}
+{"query": "A projectile’s height is h(t) = -3t^2 + 6t + -4. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=-1"}
+{"query": "A projectile’s height is h(t) = -1t^2 + 2t + 3. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=4"}
+{"query": "Simplify: (x^4)/(x^1)", "expected": "x^3"}
+{"query": "State the domain and range of f(x) = 2x^2 + 1.", "expected": "Domain: (-∞, ∞); Range: [1, ∞)"}
+{"query": "Simplify: √32", "expected": "4√2"}
+{"query": "A gym charges a $13 signup fee and $8 per month. Write and evaluate the cost after 6 months.", "expected": "C = $61"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x≥0 at x=2.", "expected": "f(2) = 4"}
+{"query": "A gym charges a $12 signup fee and $5 per month. Write and evaluate the cost after 6 months.", "expected": "C = $42"}
+{"query": "Simplify: (x^1)/(x^3)", "expected": "1/x^2"}
+{"query": "Solve for x: 9|x| + 9 = 45", "expected": "x = 4 or x = -4"}
+{"query": "A projectile’s height is h(t) = -1t^2 + 2t + -1. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=0"}
+{"query": "A projectile’s height is h(t) = -2t^2 + 4t + 3. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=5"}
+{"query": "A gym charges a $7 signup fee and $7 per month. Write and evaluate the cost after 6 months.", "expected": "C = $49"}
+{"query": "Simplify: (x^1)/(x^2)", "expected": "1/x^1"}
+{"query": "A gym charges a $14 signup fee and $10 per month. Write and evaluate the cost after 6 months.", "expected": "C = $74"}
+{"query": "Solve for x: 6|x| + 0 = 30", "expected": "x = 5 or x = -5"}
+{"query": "A gym charges a $5 signup fee and $2 per month. Write and evaluate the cost after 6 months.", "expected": "C = $17"}
+{"query": "A gym charges a $11 signup fee and $6 per month. Write and evaluate the cost after 6 months.", "expected": "C = $47"}
+{"query": "A gym charges a $16 signup fee and $6 per month. Write and evaluate the cost after 6 months.", "expected": "C = $52"}
+{"query": "Solve for x: 5|x| + -6 = -6", "expected": "x = 0 or x = 0"}
+{"query": "Solve for x: 1|x| + 7 = 11", "expected": "x = -4 or x = 4"}
+{"query": "A gym charges a $16 signup fee and $1 per month. Write and evaluate the cost after 6 months.", "expected": "C = $22"}
+{"query": "Solve for x: 5|x| + 10 = 25", "expected": "x = 3 or x = -3"}
+{"query": "A gym charges a $20 signup fee and $4 per month. Write and evaluate the cost after 6 months.", "expected": "C = $44"}
+{"query": "Solve for x: 5|x| + 5 = 30", "expected": "x = 5 or x = -5"}
+{"query": "A projectile’s height is h(t) = -3t^2 + 6t + -3. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=0"}
+{"query": "A projectile’s height is h(t) = -1t^2 + 2t + 2. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=3"}
+{"query": "Solve for x: 2|x| + 7 = 13", "expected": "x = 3 or x = -3"}
+{"query": "A gym charges a $5 signup fee and $1 per month. Write and evaluate the cost after 6 months.", "expected": "C = $11"}
+{"query": "State the domain and range of f(x) = 2x^2 + 5.", "expected": "Domain: (-∞, ∞); Range: [5, ∞)"}
+{"query": "Simplify: (x^3)/(x^1)", "expected": "x^2"}
+{"query": "Simplify: (x^2)/(x^4)", "expected": "1/x^2"}
+{"query": "Solve for x: 7|x| + -3 = 25", "expected": "x = -4 or x = 4"}
+{"query": "Simplify: (x^4)/(x^1)", "expected": "x^3"}
+{"query": "Simplify: √8", "expected": "2√2"}
+{"query": "Simplify: (x^4)/(x^1)", "expected": "x^3"}
+{"query": "Simplify: √50", "expected": "5√2"}
+{"query": "A projectile’s height is h(t) = -1t^2 + 2t + 0. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=1"}
+{"query": "Solve for x: 4|x| + -5 = 15", "expected": "x = 5 or x = -5"}
+{"query": "Simplify: (x^4)/(x^3)", "expected": "x^1"}
+{"query": "Solve for x: 9|x| + -8 = 19", "expected": "x = 3 or x = -3"}
+{"query": "State the domain and range of f(x) = 2x^2 + 4.", "expected": "Domain: (-∞, ∞); Range: [4, ∞)"}
+{"query": "Simplify: √45", "expected": "3√5"}
+{"query": "A gym charges a $6 signup fee and $8 per month. Write and evaluate the cost after 6 months.", "expected": "C = $54"}
+{"query": "A gym charges a $5 signup fee and $2 per month. Write and evaluate the cost after 6 months.", "expected": "C = $17"}
+{"query": "Simplify: √24", "expected": "2√6"}
+{"query": "Simplify: √12", "expected": "2√3"}
+{"query": "A gym charges a $18 signup fee and $9 per month. Write and evaluate the cost after 6 months.", "expected": "C = $72"}
+{"query": "Simplify: (x^1)/(x^2)", "expected": "1/x^1"}
+{"query": "A gym charges a $13 signup fee and $1 per month. Write and evaluate the cost after 6 months.", "expected": "C = $19"}
+{"query": "A gym charges a $11 signup fee and $3 per month. Write and evaluate the cost after 6 months.", "expected": "C = $29"}
+{"query": "A projectile’s height is h(t) = -3t^2 + 6t + -1. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=2"}
+{"query": "Solve for x: 8|x| + 7 = 7", "expected": "x = 0 or x = 0"}
+{"query": "Simplify: (x^2)/(x^3)", "expected": "1/x^1"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x≥0 at x=4.", "expected": "f(4) = 16"}
+{"query": "Simplify: √4", "expected": "2√1"}
+{"query": "Simplify: √20", "expected": "2√5"}
+{"query": "Solve for x: 4|x| + 2 = 2", "expected": "x = 0 or x = 0"}
+{"query": "A projectile’s height is h(t) = -1t^2 + 2t + 3. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=4"}
+{"query": "A projectile’s height is h(t) = -2t^2 + 4t + 3. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=5"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x≥0 at x=-2.", "expected": "f(-2) = -3"}
+{"query": "Solve for x: 2|x| + 5 = 17", "expected": "x = -6 or x = 6"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x≥0 at x=-1.", "expected": "f(-1) = -1"}
+{"query": "Simplify: √75", "expected": "5√3"}
+{"query": "State the domain and range of f(x) = 2x^2 + 5.", "expected": "Domain: (-∞, ∞); Range: [5, ∞)"}
+{"query": "Simplify: (x^3)/(x^2)", "expected": "x^1"}
+{"query": "Simplify: (x^1)/(x^5)", "expected": "1/x^4"}
+{"query": "Simplify: √72", "expected": "6√2"}
+{"query": "Simplify: √18", "expected": "3√2"}
+{"query": "Simplify: √45", "expected": "3√5"}
+{"query": "Solve for x: 1|x| + 6 = 9", "expected": "x = -3 or x = 3"}
+{"query": "State the domain and range of f(x) = 4x^2 + 2.", "expected": "Domain: (-∞, ∞); Range: [2, ∞)"}
+{"query": "A gym charges a $5 signup fee and $10 per month. Write and evaluate the cost after 6 months.", "expected": "C = $65"}
+{"query": "Simplify: √18", "expected": "3√2"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x≥0 at x=-4.", "expected": "f(-4) = -7"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x≥0 at x=0.", "expected": "f(0) = 0"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x≥0 at x=4.", "expected": "f(4) = 16"}
+{"query": "Simplify: (x^2)/(x^1)", "expected": "x^1"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x≥0 at x=-1.", "expected": "f(-1) = -1"}
+{"query": "A gym charges a $13 signup fee and $2 per month. Write and evaluate the cost after 6 months.", "expected": "C = $25"}
+{"query": "Simplify: (x^3)/(x^1)", "expected": "x^2"}
+{"query": "State the domain and range of f(x) = 2x^2 + 3.", "expected": "Domain: (-∞, ∞); Range: [3, ∞)"}
+{"query": "A gym charges a $10 signup fee and $1 per month. Write and evaluate the cost after 6 months.", "expected": "C = $16"}
+{"query": "A gym charges a $9 signup fee and $9 per month. Write and evaluate the cost after 6 months.", "expected": "C = $63"}
+{"query": "A projectile’s height is h(t) = -3t^2 + 6t + -2. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=1"}
+{"query": "Solve for x: 9|x| + -7 = 20", "expected": "x = 3 or x = -3"}
+{"query": "State the domain and range of f(x) = 2x^2 + 5.", "expected": "Domain: (-∞, ∞); Range: [5, ∞)"}
+{"query": "A gym charges a $14 signup fee and $10 per month. Write and evaluate the cost after 6 months.", "expected": "C = $74"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x≥0 at x=4.", "expected": "f(4) = 16"}
+{"query": "State the domain and range of f(x) = 1x^2 + 1.", "expected": "Domain: (-∞, ∞); Range: [1, ∞)"}

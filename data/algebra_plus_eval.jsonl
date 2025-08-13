@@ -1,0 +1,200 @@
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=-2.", "expected": "f(-2) = -3"}
+{"query": "A gym charges a $10 signup fee and $1 per month. Write and evaluate the cost after 6 months.", "expected": "C = $16"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=3.", "expected": "f(3) = 9"}
+{"query": "State the domain and range of f(x) = 2x^2 + 4.", "expected": "Domain: (-infinity, infinity); Range: [4, infinity)"}
+{"query": "State the domain and range of f(x) = 4x^2 + 5.", "expected": "Domain: (-infinity, infinity); Range: [5, infinity)"}
+{"query": "Simplify: (x^1)/(x^3)", "expected": "1/x^2"}
+{"query": "Solve for x: 4|x| + 1 = 21", "expected": "x = -5 or x = 5"}
+{"query": "Simplify: sqrt8", "expected": "2sqrt2"}
+{"query": "Solve for x: 6|x| + 9 = 27", "expected": "x = 3 or x = -3"}
+{"query": "Simplify: sqrt12", "expected": "2sqrt3"}
+{"query": "A projectile’s height is h(t) = -3t^2 + 6t + -4. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=-1"}
+{"query": "A projectile’s height is h(t) = -1t^2 + 2t + 3. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=4"}
+{"query": "Simplify: (x^4)/(x^1)", "expected": "x^3"}
+{"query": "State the domain and range of f(x) = 2x^2 + 1.", "expected": "Domain: (-infinity, infinity); Range: [1, infinity)"}
+{"query": "Simplify: sqrt32", "expected": "4sqrt2"}
+{"query": "A gym charges a $13 signup fee and $8 per month. Write and evaluate the cost after 6 months.", "expected": "C = $61"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=2.", "expected": "f(2) = 4"}
+{"query": "A gym charges a $12 signup fee and $5 per month. Write and evaluate the cost after 6 months.", "expected": "C = $42"}
+{"query": "Simplify: (x^1)/(x^3)", "expected": "1/x^2"}
+{"query": "Solve for x: 9|x| + 9 = 45", "expected": "x = 4 or x = -4"}
+{"query": "A projectile’s height is h(t) = -1t^2 + 2t + -1. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=0"}
+{"query": "A projectile’s height is h(t) = -2t^2 + 4t + 3. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=5"}
+{"query": "A gym charges a $7 signup fee and $7 per month. Write and evaluate the cost after 6 months.", "expected": "C = $49"}
+{"query": "Simplify: (x^1)/(x^2)", "expected": "1/x^1"}
+{"query": "A gym charges a $14 signup fee and $10 per month. Write and evaluate the cost after 6 months.", "expected": "C = $74"}
+{"query": "Solve for x: 6|x| + 0 = 30", "expected": "x = 5 or x = -5"}
+{"query": "A gym charges a $5 signup fee and $2 per month. Write and evaluate the cost after 6 months.", "expected": "C = $17"}
+{"query": "A gym charges a $11 signup fee and $6 per month. Write and evaluate the cost after 6 months.", "expected": "C = $47"}
+{"query": "A gym charges a $16 signup fee and $6 per month. Write and evaluate the cost after 6 months.", "expected": "C = $52"}
+{"query": "Solve for x: 5|x| + -6 = -6", "expected": "x = 0 or x = 0"}
+{"query": "Solve for x: 1|x| + 7 = 11", "expected": "x = -4 or x = 4"}
+{"query": "A gym charges a $16 signup fee and $1 per month. Write and evaluate the cost after 6 months.", "expected": "C = $22"}
+{"query": "Solve for x: 5|x| + 10 = 25", "expected": "x = 3 or x = -3"}
+{"query": "A gym charges a $20 signup fee and $4 per month. Write and evaluate the cost after 6 months.", "expected": "C = $44"}
+{"query": "Solve for x: 5|x| + 5 = 30", "expected": "x = 5 or x = -5"}
+{"query": "A projectile’s height is h(t) = -3t^2 + 6t + -3. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=0"}
+{"query": "A projectile’s height is h(t) = -1t^2 + 2t + 2. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=3"}
+{"query": "Solve for x: 2|x| + 7 = 13", "expected": "x = 3 or x = -3"}
+{"query": "A gym charges a $5 signup fee and $1 per month. Write and evaluate the cost after 6 months.", "expected": "C = $11"}
+{"query": "State the domain and range of f(x) = 2x^2 + 5.", "expected": "Domain: (-infinity, infinity); Range: [5, infinity)"}
+{"query": "Simplify: (x^3)/(x^1)", "expected": "x^2"}
+{"query": "Simplify: (x^2)/(x^4)", "expected": "1/x^2"}
+{"query": "Solve for x: 7|x| + -3 = 25", "expected": "x = -4 or x = 4"}
+{"query": "Simplify: (x^4)/(x^1)", "expected": "x^3"}
+{"query": "Simplify: sqrt8", "expected": "2sqrt2"}
+{"query": "Simplify: (x^4)/(x^1)", "expected": "x^3"}
+{"query": "Simplify: sqrt50", "expected": "5sqrt2"}
+{"query": "A projectile’s height is h(t) = -1t^2 + 2t + 0. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=1"}
+{"query": "Solve for x: 4|x| + -5 = 15", "expected": "x = 5 or x = -5"}
+{"query": "Simplify: (x^4)/(x^3)", "expected": "x^1"}
+{"query": "Solve for x: 9|x| + -8 = 19", "expected": "x = 3 or x = -3"}
+{"query": "State the domain and range of f(x) = 2x^2 + 4.", "expected": "Domain: (-infinity, infinity); Range: [4, infinity)"}
+{"query": "Simplify: sqrt45", "expected": "3sqrt5"}
+{"query": "A gym charges a $6 signup fee and $8 per month. Write and evaluate the cost after 6 months.", "expected": "C = $54"}
+{"query": "A gym charges a $5 signup fee and $2 per month. Write and evaluate the cost after 6 months.", "expected": "C = $17"}
+{"query": "Simplify: sqrt24", "expected": "2sqrt6"}
+{"query": "Simplify: sqrt12", "expected": "2sqrt3"}
+{"query": "A gym charges a $18 signup fee and $9 per month. Write and evaluate the cost after 6 months.", "expected": "C = $72"}
+{"query": "Simplify: (x^1)/(x^2)", "expected": "1/x^1"}
+{"query": "A gym charges a $13 signup fee and $1 per month. Write and evaluate the cost after 6 months.", "expected": "C = $19"}
+{"query": "A gym charges a $11 signup fee and $3 per month. Write and evaluate the cost after 6 months.", "expected": "C = $29"}
+{"query": "A projectile’s height is h(t) = -3t^2 + 6t + -1. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=2"}
+{"query": "Solve for x: 8|x| + 7 = 7", "expected": "x = 0 or x = 0"}
+{"query": "Simplify: (x^2)/(x^3)", "expected": "1/x^1"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=4.", "expected": "f(4) = 16"}
+{"query": "Simplify: sqrt4", "expected": "2sqrt1"}
+{"query": "Simplify: sqrt20", "expected": "2sqrt5"}
+{"query": "Solve for x: 4|x| + 2 = 2", "expected": "x = 0 or x = 0"}
+{"query": "A projectile’s height is h(t) = -1t^2 + 2t + 3. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=4"}
+{"query": "A projectile’s height is h(t) = -2t^2 + 4t + 3. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=5"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=-2.", "expected": "f(-2) = -3"}
+{"query": "Solve for x: 2|x| + 5 = 17", "expected": "x = -6 or x = 6"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=-1.", "expected": "f(-1) = -1"}
+{"query": "Simplify: sqrt75", "expected": "5sqrt3"}
+{"query": "State the domain and range of f(x) = 2x^2 + 5.", "expected": "Domain: (-infinity, infinity); Range: [5, infinity)"}
+{"query": "Simplify: (x^3)/(x^2)", "expected": "x^1"}
+{"query": "Simplify: (x^1)/(x^5)", "expected": "1/x^4"}
+{"query": "Simplify: sqrt72", "expected": "6sqrt2"}
+{"query": "Simplify: sqrt18", "expected": "3sqrt2"}
+{"query": "Simplify: sqrt45", "expected": "3sqrt5"}
+{"query": "Solve for x: 1|x| + 6 = 9", "expected": "x = -3 or x = 3"}
+{"query": "State the domain and range of f(x) = 4x^2 + 2.", "expected": "Domain: (-infinity, infinity); Range: [2, infinity)"}
+{"query": "A gym charges a $5 signup fee and $10 per month. Write and evaluate the cost after 6 months.", "expected": "C = $65"}
+{"query": "Simplify: sqrt18", "expected": "3sqrt2"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=-4.", "expected": "f(-4) = -7"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=0.", "expected": "f(0) = 0"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=4.", "expected": "f(4) = 16"}
+{"query": "Simplify: (x^2)/(x^1)", "expected": "x^1"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=-1.", "expected": "f(-1) = -1"}
+{"query": "A gym charges a $13 signup fee and $2 per month. Write and evaluate the cost after 6 months.", "expected": "C = $25"}
+{"query": "Simplify: (x^3)/(x^1)", "expected": "x^2"}
+{"query": "State the domain and range of f(x) = 2x^2 + 3.", "expected": "Domain: (-infinity, infinity); Range: [3, infinity)"}
+{"query": "A gym charges a $10 signup fee and $1 per month. Write and evaluate the cost after 6 months.", "expected": "C = $16"}
+{"query": "A gym charges a $9 signup fee and $9 per month. Write and evaluate the cost after 6 months.", "expected": "C = $63"}
+{"query": "A projectile’s height is h(t) = -3t^2 + 6t + -2. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=1"}
+{"query": "Solve for x: 9|x| + -7 = 20", "expected": "x = 3 or x = -3"}
+{"query": "State the domain and range of f(x) = 2x^2 + 5.", "expected": "Domain: (-infinity, infinity); Range: [5, infinity)"}
+{"query": "A gym charges a $14 signup fee and $10 per month. Write and evaluate the cost after 6 months.", "expected": "C = $74"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=4.", "expected": "f(4) = 16"}
+{"query": "State the domain and range of f(x) = 1x^2 + 1.", "expected": "Domain: (-infinity, infinity); Range: [1, infinity)"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=5.", "expected": "f(5) = 25"}
+{"query": "A gym charges a $9 signup fee and $7 per month. Write and evaluate the cost after 6 months.", "expected": "C = $51"}
+{"query": "State the domain and range of f(x) = 4x^2 + 5.", "expected": "Domain: (-infinity, infinity); Range: [5, infinity)"}
+{"query": "A gym charges a $14 signup fee and $4 per month. Write and evaluate the cost after 6 months.", "expected": "C = $38"}
+{"query": "State the domain and range of f(x) = 2x^2 + 3.", "expected": "Domain: (-infinity, infinity); Range: [3, infinity)"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=-1.", "expected": "f(-1) = -1"}
+{"query": "A gym charges a $11 signup fee and $4 per month. Write and evaluate the cost after 6 months.", "expected": "C = $35"}
+{"query": "State the domain and range of f(x) = 2x^2 + 2.", "expected": "Domain: (-infinity, infinity); Range: [2, infinity)"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=0.", "expected": "f(0) = 0"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=3.", "expected": "f(3) = 9"}
+{"query": "Simplify: (x^2)/(x^1)", "expected": "x^1"}
+{"query": "Solve for x: 8|x| + -1 = 39", "expected": "x = 5 or x = -5"}
+{"query": "Simplify: (x^3)/(x^5)", "expected": "1/x^2"}
+{"query": "State the domain and range of f(x) = 1x^2 + 4.", "expected": "Domain: (-infinity, infinity); Range: [4, infinity)"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=-2.", "expected": "f(-2) = -3"}
+{"query": "Solve for x: 4|x| + -3 = 21", "expected": "x = -6 or x = 6"}
+{"query": "Simplify: (x^2)/(x^3)", "expected": "1/x^1"}
+{"query": "A projectile’s height is h(t) = -1t^2 + 2t + 4. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=5"}
+{"query": "Simplify: (x^4)/(x^2)", "expected": "x^2"}
+{"query": "Simplify: sqrt50", "expected": "5sqrt2"}
+{"query": "Solve for x: 8|x| + -8 = 24", "expected": "x = -4 or x = 4"}
+{"query": "Simplify: sqrt20", "expected": "2sqrt5"}
+{"query": "Solve for x: 1|x| + -8 = -8", "expected": "x = 0 or x = 0"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=-2.", "expected": "f(-2) = -3"}
+{"query": "Solve for x: 7|x| + -9 = 19", "expected": "x = 4 or x = -4"}
+{"query": "Solve for x: 7|x| + 1 = 29", "expected": "x = 4 or x = -4"}
+{"query": "A projectile’s height is h(t) = -2t^2 + 4t + -2. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=0"}
+{"query": "A gym charges a $17 signup fee and $6 per month. Write and evaluate the cost after 6 months.", "expected": "C = $53"}
+{"query": "Solve for x: 9|x| + 2 = 2", "expected": "x = 0 or x = 0"}
+{"query": "A gym charges a $17 signup fee and $9 per month. Write and evaluate the cost after 6 months.", "expected": "C = $71"}
+{"query": "Solve for x: 6|x| + 4 = 22", "expected": "x = 3 or x = -3"}
+{"query": "A projectile’s height is h(t) = -2t^2 + 4t + 0. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=2"}
+{"query": "Simplify: (x^1)/(x^3)", "expected": "1/x^2"}
+{"query": "A projectile’s height is h(t) = -2t^2 + 4t + 3. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=5"}
+{"query": "A projectile’s height is h(t) = -3t^2 + 6t + 4. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=7"}
+{"query": "A gym charges a $10 signup fee and $3 per month. Write and evaluate the cost after 6 months.", "expected": "C = $28"}
+{"query": "Simplify: sqrt8", "expected": "2sqrt2"}
+{"query": "Simplify: (x^2)/(x^1)", "expected": "x^1"}
+{"query": "Solve for x: 1|x| + 8 = 13", "expected": "x = -5 or x = 5"}
+{"query": "State the domain and range of f(x) = 1x^2 + 3.", "expected": "Domain: (-infinity, infinity); Range: [3, infinity)"}
+{"query": "Simplify: sqrt32", "expected": "4sqrt2"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=0.", "expected": "f(0) = 0"}
+{"query": "State the domain and range of f(x) = 2x^2 + 5.", "expected": "Domain: (-infinity, infinity); Range: [5, infinity)"}
+{"query": "Simplify: (x^4)/(x^3)", "expected": "x^1"}
+{"query": "Simplify: sqrt50", "expected": "5sqrt2"}
+{"query": "Simplify: (x^4)/(x^1)", "expected": "x^3"}
+{"query": "State the domain and range of f(x) = 1x^2 + 2.", "expected": "Domain: (-infinity, infinity); Range: [2, infinity)"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=4.", "expected": "f(4) = 16"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=-2.", "expected": "f(-2) = -3"}
+{"query": "Solve for x: 2|x| + 1 = 7", "expected": "x = 3 or x = -3"}
+{"query": "A projectile’s height is h(t) = -1t^2 + 2t + 1. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=2"}
+{"query": "State the domain and range of f(x) = 2x^2 + 4.", "expected": "Domain: (-infinity, infinity); Range: [4, infinity)"}
+{"query": "A gym charges a $19 signup fee and $2 per month. Write and evaluate the cost after 6 months.", "expected": "C = $31"}
+{"query": "Simplify: sqrt32", "expected": "4sqrt2"}
+{"query": "A projectile’s height is h(t) = -3t^2 + 6t + -1. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=2"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=-1.", "expected": "f(-1) = -1"}
+{"query": "Simplify: (x^2)/(x^2)", "expected": "1"}
+{"query": "A gym charges a $9 signup fee and $10 per month. Write and evaluate the cost after 6 months.", "expected": "C = $69"}
+{"query": "Simplify: (x^3)/(x^2)", "expected": "x^1"}
+{"query": "A gym charges a $14 signup fee and $4 per month. Write and evaluate the cost after 6 months.", "expected": "C = $38"}
+{"query": "Solve for x: 6|x| + -6 = 0", "expected": "x = 1 or x = -1"}
+{"query": "Simplify: sqrt98", "expected": "7sqrt2"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=2.", "expected": "f(2) = 4"}
+{"query": "Simplify: (x^1)/(x^3)", "expected": "1/x^2"}
+{"query": "Simplify: sqrt18", "expected": "3sqrt2"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=-4.", "expected": "f(-4) = -7"}
+{"query": "State the domain and range of f(x) = 4x^2 + 2.", "expected": "Domain: (-infinity, infinity); Range: [2, infinity)"}
+{"query": "Simplify: sqrt45", "expected": "3sqrt5"}
+{"query": "State the domain and range of f(x) = 2x^2 + 2.", "expected": "Domain: (-infinity, infinity); Range: [2, infinity)"}
+{"query": "Solve for x: 1|x| + 8 = 11", "expected": "x = 3 or x = -3"}
+{"query": "Simplify: (x^5)/(x^5)", "expected": "1"}
+{"query": "Solve for x: 7|x| + 2 = 37", "expected": "x = -5 or x = 5"}
+{"query": "Simplify: (x^1)/(x^2)", "expected": "1/x^1"}
+{"query": "State the domain and range of f(x) = 4x^2 + 5.", "expected": "Domain: (-infinity, infinity); Range: [5, infinity)"}
+{"query": "Solve for x: 7|x| + -9 = 12", "expected": "x = -3 or x = 3"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=1.", "expected": "f(1) = 1"}
+{"query": "Solve for x: 8|x| + 1 = 17", "expected": "x = -2 or x = 2"}
+{"query": "Simplify: sqrt24", "expected": "2sqrt6"}
+{"query": "State the domain and range of f(x) = 2x^2 + 3.", "expected": "Domain: (-infinity, infinity); Range: [3, infinity)"}
+{"query": "State the domain and range of f(x) = 1x^2 + 2.", "expected": "Domain: (-infinity, infinity); Range: [2, infinity)"}
+{"query": "A projectile’s height is h(t) = -3t^2 + 6t + 0. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=3"}
+{"query": "State the domain and range of f(x) = 4x^2 + 3.", "expected": "Domain: (-infinity, infinity); Range: [3, infinity)"}
+{"query": "A gym charges a $10 signup fee and $5 per month. Write and evaluate the cost after 6 months.", "expected": "C = $40"}
+{"query": "Simplify: (x^5)/(x^2)", "expected": "x^3"}
+{"query": "A gym charges a $7 signup fee and $10 per month. Write and evaluate the cost after 6 months.", "expected": "C = $67"}
+{"query": "A projectile’s height is h(t) = -3t^2 + 6t + 0. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=3"}
+{"query": "Solve for x: 7|x| + -5 = 37", "expected": "x = 6 or x = -6"}
+{"query": "State the domain and range of f(x) = 1x^2 + 1.", "expected": "Domain: (-infinity, infinity); Range: [1, infinity)"}
+{"query": "State the domain and range of f(x) = 1x^2 + 2.", "expected": "Domain: (-infinity, infinity); Range: [2, infinity)"}
+{"query": "Simplify: sqrt98", "expected": "7sqrt2"}
+{"query": "State the domain and range of f(x) = 3x^2 + 5.", "expected": "Domain: (-infinity, infinity); Range: [5, infinity)"}
+{"query": "A gym charges a $12 signup fee and $2 per month. Write and evaluate the cost after 6 months.", "expected": "C = $24"}
+{"query": "Solve for x: 1|x| + 9 = 12", "expected": "x = -3 or x = 3"}
+{"query": "A projectile’s height is h(t) = -1t^2 + 2t + 4. Find the vertex (time of max height).", "expected": "Vertex at t=1, height=5"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=-4.", "expected": "f(-4) = -7"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=2.", "expected": "f(2) = 4"}
+{"query": "Evaluate f(x) where f(x)=2x+1 for x<0 and f(x)=x^2 for x>=0 at x=-5.", "expected": "f(-5) = -9"}
+{"query": "State the domain and range of f(x) = 2x^2 + 5.", "expected": "Domain: (-infinity, infinity); Range: [5, infinity)"}
+{"query": "State the domain and range of f(x) = 4x^2 + 3.", "expected": "Domain: (-infinity, infinity); Range: [3, infinity)"}
+{"query": "Simplify: sqrt20", "expected": "2sqrt5"}

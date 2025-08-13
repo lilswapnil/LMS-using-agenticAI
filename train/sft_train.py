@@ -1,4 +1,5 @@
-import os, json, yaml, torch
+import os, json, yaml, torch, random
+import numpy as np
 from dataclasses import dataclass
 from typing import List, Dict, Any
 from datasets import Dataset
@@ -47,6 +48,13 @@ class JsonlDataset:
     def to_list(self):
         return [{"text": format_example(r)} for r in self.rows]
 
+def set_seed(seed: int = 42):
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
+
 def render_record(rec: Dict[str, Any]) -> str:
     instr = rec.get("instruction") or rec.get("query") or ""
     traj = rec.get("trajectory") or []
@@ -54,15 +62,25 @@ def render_record(rec: Dict[str, Any]) -> str:
     lines = [f"User: {instr}"]
     for step in traj:
         th = step.get("thought")
+        act = step.get("action")
         obs = step.get("observation")
-        if th: lines.append(f"Assistant (thought): {th}")
-        if obs: lines.append(f"Tool observation: {obs}")
+        if th: lines.append(f"Thought: {th}")
+        if act: lines.append(f"Action: {act}")
+        if obs: lines.append(f"Observation: {obs}")
     lines.append(f"Assistant: {ans}")
     return "\n".join(lines).strip()
 
 def load_text_dataset(path: str) -> Dataset:
+    # Fallback to non-clean path if the clean file is missing
+    src_path = path
+    if not os.path.exists(src_path):
+        alt = path.replace(".clean", "")
+        if os.path.exists(alt):
+            src_path = alt
+        else:
+            raise FileNotFoundError(f"Dataset not found: {path}")
     rows: List[Dict[str, Any]] = []
-    with open(path, "r", encoding="utf-8") as f:
+    with open(src_path, "r", encoding="utf-8") as f:
         for line in f:
             t = line.strip()
             if not t or t.startswith("//") or not t.startswith("{"):
@@ -73,7 +91,7 @@ def load_text_dataset(path: str) -> Dataset:
             except Exception:
                 continue
     if not rows:
-        raise ValueError(f"No training rows found in {path}.")
+        raise ValueError(f"No training rows found in {src_path}. Make sure it is valid JSONL.")
     return Dataset.from_list(rows)
 
 def get_device() -> str:
@@ -85,6 +103,8 @@ def get_device() -> str:
 
 if __name__ == "__main__":
     cfg = yaml.safe_load(open("train/config.yaml", "r"))
+
+    set_seed(int(cfg.get("seed", 42)))
     model_name = cfg["base_model"]
 
     tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True)
@@ -95,7 +115,7 @@ if __name__ == "__main__":
     if tokenizer.pad_token_id is None and tokenizer.eos_token_id is not None:
         tokenizer.pad_token_id = tokenizer.eos_token_id
 
-    # Load model
+    # Load base model (CPU/MPS friendly by default)
     load_kwargs = {}
     if cfg.get("load_4bit") or cfg.get("load_8bit"):
         load_kwargs["device_map"] = "auto"
@@ -104,6 +124,7 @@ if __name__ == "__main__":
         if cfg.get("load_8bit"):
             load_kwargs["load_in_8bit"] = True
     model = AutoModelForCausalLM.from_pretrained(model_name, **load_kwargs)
+    model.config.use_cache = False  # safer for training
 
     # LoRA
     peft_cfg = LoraConfig(
@@ -119,7 +140,7 @@ if __name__ == "__main__":
     # Dataset
     ds = load_text_dataset(cfg["dataset_path"])
 
-    # Cast numerics
+    # Training args
     args = TrainingArguments(
         output_dir=cfg["output_dir"],
         per_device_train_batch_size=int(cfg["per_device_train_batch_size"]),
@@ -145,6 +166,7 @@ if __name__ == "__main__":
         packing=bool(cfg.get("packing", False)),
     )
 
+    # Train
     device = get_device()
     model.to(device)
     trainer.train()
