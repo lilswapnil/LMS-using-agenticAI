@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+.ptyhon_history
+
+# Artifacts / models / caches
+outputs/
+checkpoints/
+data/*.cache
+*.pt
+*.bin
+*.safetensors
+*.dylib
+*.so
+*.zip
+*.tar.gz
