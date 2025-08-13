@@ -1,8 +1,3 @@
-Here’s a complete `README.md` for your repo based on your description, written in a research-oriented style and GitHub-ready.
-
----
-
-```markdown
 # Agentic AI — Trainable LMS/ERP Assistant
 
 A reproducible research scaffold for fine-tuning small open-source LLMs to act as tool-augmented assistants for **Learning Management Systems (LMS)** and **Enterprise Resource Planning (ERP)** tasks.  
@@ -179,9 +174,3 @@ If you use this project in academic work:
 }
 ```
 
-```
-
----
-
-If you want, I can also **add a “Quick Start” section** with copy-paste commands for training and evaluation so people can run your repo in under 5 minutes. That would make the README more appealing for GitHub visitors.
-```
